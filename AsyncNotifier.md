@@ -19,3 +19,5 @@
     await future;
   }
 ```
+
+参考: https://riverpod.dev/docs/essentials/side_effects#using-refinvalidateself-to-refresh-the-provider
