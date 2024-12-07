@@ -56,3 +56,5 @@ final delayedDisposeProvider = FutureProvider.autoDispose<Object>((ref) async {
 });
 
 ```
+
+参考: https://riverpod.dev/docs/essentials/auto_dispose#example-keeping-state-alive-for-a-specific-amount-of-time
