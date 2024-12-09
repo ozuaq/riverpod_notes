@@ -1,3 +1,14 @@
+# AutoDispose の動作
+
+```text
+riverpodはproviderにリスナーがいるかどうかを追跡し、providerがリスナーを持たない場合、
+stateが破棄される。
+```
+
+```text
+@riverpodアノテーションによるコード生成を用いた場合は、デフォルトでautoDisposeが指定される
+```
+
 # リスナが全て削除されてから、一定時間 Provider の破棄を遅らせる
 
 ファイル構成例 (lib/extensions/provider_extensions.dart):
